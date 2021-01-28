@@ -41,9 +41,9 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // using the 'speak' method or either helloSpeaker's or byeSpeaker's
 // 'speak' method.
 // See Lecture 50, part 1
-for (i=0; i < names.length i++) {
-  const index = 1;
-  var firstLetter = names.charAt(index)
+for (i=0; i < names.length; i++) {
+  const index = 0;
+  var firstLetter = names[i].charAt(index);
   firstLetter = firstLetter.toLowerCase();
 
   // STEP 11:
@@ -61,9 +61,13 @@ for (i=0; i < names.length i++) {
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (firstLetter == "j") {
-     byeSpeaker.speak
+     byeSpeaker.speak(names[i]);
+     console.log(names[i]);
+     console.log("testJ");
   } else {
-     helloSpeaker.speak
+     helloSpeaker.speak(names[i]);
+     console.log(names[i]);
+     console.log("test");
   }
 }
 })
