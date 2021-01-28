@@ -15,14 +15,24 @@ body {
 #our-menu {
   border-radius: 0;
   border: 0;
-  margin: 30px 15px 30px 0;
+  margin: 30px 15px 30px 30;
   color: #557c3e;
   font-weight: bold;
+  background-color: #6b1710;
+  padding-right: 0px;
+  adding-left: 100px;
 
 }
 
-#logo-img {
+/*#logo-img {
   background: url('../images/restaurant-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}*/
+
+#logo-img {
+  background: url('../images/frog.jpg') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
